@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/script.js")" type="text/javascript"></script>
+</head>
+
+<body>
+    <div style="float:left;">
+        @Html.Partial("~/Views/Navigation/TopNavigation.cshtml")
+    </div>
+    <div style="clear:both;" />
+
+    @RenderBody()
+</body>
+</html>

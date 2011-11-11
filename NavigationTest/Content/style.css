@@ -1,0 +1,113 @@
+﻿#top-navigation
+{	
+    margin: 0;
+	padding: 0
+}
+	
+#top-navigation li
+{	
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial
+}
+
+#top-navigation li a
+{	
+	display: block;
+	background: #20548E;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-right: 1px solid white;
+	width: 70px;
+	color: #EAFFED;
+	white-space: nowrap
+}
+
+#top-navigation li a:hover
+{	
+	background: #1A4473
+}
+		
+#top-navigation li ul
+{	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid white
+}
+		
+#top-navigation li ul li
+{	
+	float: none;
+	display: inline
+}
+		
+#top-navigation li ul li a
+{	
+	width: auto;
+	background: #9F1B1B
+}
+		
+#top-navigation li ul li a:hover
+{	
+	background: #7F1616
+}
+
+#left-navigation
+{	
+    margin: 0;
+	padding: 2px 0 0 0;
+}
+	
+#left-navigation li
+{	
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial;
+	clear: both;
+	padding-top: 2px;
+}
+
+#left-navigation li a
+{	
+	display: block;
+	background: #F0F4FE;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-right: 1px solid white;
+	width: 70px;
+	color: #303030;
+	white-space: nowrap
+}
+
+#left-navigation li a:hover
+{	
+	background: #4A74A3
+}
+		
+#left-navigation li ul
+{	
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid white;
+}
+		
+#left-navigation li ul li
+{	
+	float: none;
+	display: inline;
+}
+		
+#left-navigation li ul li a
+{	
+	width: auto;
+	background: #CF4B4B
+}
+		
+#left-navigation li ul li a:hover
+{	
+	background: #AF4646
+}

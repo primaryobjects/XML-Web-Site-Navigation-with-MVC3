@@ -1,0 +1,17 @@
+*.cache
+*.dll
+*.pdb
+*.txt
+!README.txt
+*.suo
+*.exe
+*.dll.config
+*.csdl
+*.msl
+*.ssdl
+*.exe.config
+*.vsmdi
+*.testsettings
+*.trx
+*.dat
+*.manifest

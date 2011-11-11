@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Link2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{ Html.RenderAction("DisplayLeftNavigation", @HttpContext.Current.Request.RequestContext.RouteData.Values["controller"].ToString()); }
+
+<div style="float: left;">
+    <h2>@RenderSection("Title", false)</h2>
+
+    @RenderSection("Content", false)
+</div>
