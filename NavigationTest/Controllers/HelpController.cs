@@ -6,11 +6,7 @@ using System.Web.Mvc;
 
 namespace NavigationTest.Controllers
 {
-    public class HelpController : Controller
+    public class HelpController : BaseNavigationController
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
     }
 }

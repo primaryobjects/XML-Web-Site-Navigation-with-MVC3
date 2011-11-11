@@ -5,11 +5,11 @@ using System.Web;
 
 namespace NavigationTest.Models
 {
-    public class LeftNavigationModel
+    public class SubMenuNavigationModel
     {
         public Dictionary<string, string> Links { get; set; }
 
-        public LeftNavigationModel()
+        public SubMenuNavigationModel()
         {
             Links = new Dictionary<string, string>();
         }

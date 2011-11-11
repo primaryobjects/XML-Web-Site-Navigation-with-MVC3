@@ -1,0 +1,6 @@
+﻿@model NavigationTest.Models.SubMenuNavigationModel
+
+@foreach (var link in Model.Links)
+{
+    <li><a href="@link.Value">@link.Key</a></li>
+}

@@ -6,16 +6,16 @@ using NavigationTest.Models;
 
 namespace NavigationTest.Managers
 {
-    public static class LeftNavigationManager
+    public static class SubMenuNavigationManager
     {
         /// <summary>
         /// Helper methods to return available sub-menu links for this controller. Assume loading from a database, xml file, or other source, rather than hard-coded, etc.
         /// </summary>
         /// <param name="controllerName">Name of controller</param>
         /// <returns>LeftNavigationModel</returns>
-        public static LeftNavigationModel Load(string controllerName)
+        public static SubMenuNavigationModel Load(string controllerName)
         {
-            LeftNavigationModel leftNavigation = new LeftNavigationModel();
+            SubMenuNavigationModel leftNavigation = new SubMenuNavigationModel();
 
             switch (controllerName)
             {

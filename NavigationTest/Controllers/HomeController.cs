@@ -8,13 +8,8 @@ using NavigationTest.Managers;
 
 namespace NavigationTest.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseNavigationController
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         public ActionResult Link1()
         {
             return View();
@@ -23,11 +18,6 @@ namespace NavigationTest.Controllers
         public ActionResult Link2()
         {
             return View();
-        }
-
-        public ActionResult DisplayLeftNavigation()
-        {
-            return PartialView("~/Views/Navigation/LeftNavigation.cshtml", LeftNavigationManager.Load(ControllerContext.RouteData.Values["controller"].ToString()));
         }
     }
 }
