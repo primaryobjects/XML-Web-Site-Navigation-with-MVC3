@@ -13,7 +13,12 @@ namespace NavigationTest.Controllers
         {
             return View();
         }
-
+        
+        /// <summary>
+        /// Displays the sub-menu navigation links for the parent menu item, identified by its controller name.
+        /// This method returns the HTML for a list of sub-menu links.
+        /// </summary>
+        /// <returns>PartialView SubMenuNavigation.cshtml</returns>
         public ActionResult DisplaySubMenuNavigation()
         {
             return PartialView("~/Views/Navigation/SubMenuNavigation.cshtml", SubMenuNavigationManager.Load(ControllerContext.RouteData.Values["controller"].ToString()));

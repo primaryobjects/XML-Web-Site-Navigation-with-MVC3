@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<nodes>
+  <node title="Home">
+    <link title="Link 1" href="/Home/Link1" />
+    <link title="Link 2" href="/Home/Link2" />
+  </node>
+  <node title="About">
+    <link title="Link 1" href="/About/Link1" />
+    <link title="Link 2" href="/About/Link2" />
+    <link title="Link 3" href="/About/Link3" />
+  </node>
+</nodes>

@@ -58,6 +58,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\navigation.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\BaseNavigationController.cs" />
     <Compile Include="Controllers\HelpController.cs" />

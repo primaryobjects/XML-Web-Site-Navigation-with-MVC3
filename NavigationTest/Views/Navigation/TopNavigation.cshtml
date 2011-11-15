@@ -9,5 +9,9 @@
             @{ Html.RenderAction("DisplaySubMenuNavigation", "About"); }
         </ul>
     </li>
-    <li><a href="/Help">Help</a></li>
+    <li><a href="/Help">Help</a>
+        <ul>
+            @{ Html.RenderAction("DisplaySubMenuNavigation", "Help"); }
+        </ul>
+    </li>
 </ul>
