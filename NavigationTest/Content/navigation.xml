@@ -9,4 +9,5 @@
     <link title="Link 2" href="/About/Link2" />
     <link title="Link 3" href="/About/Link3" />
   </node>
+  <node title="Help" />
 </nodes>
